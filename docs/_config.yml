@@ -30,8 +30,8 @@ github_username: darshanvalia
 domain: dvalia.in
 
 # Build settings
-theme: no-style-please
-#remote-theme: no-style-please
+#theme: no-style-please
+remote-theme: no-style-please
 
 theme_config:
   back_home_text: "← home" # customize text for homepage link in post layout
