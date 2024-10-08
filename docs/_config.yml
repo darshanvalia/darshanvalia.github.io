@@ -21,18 +21,23 @@
 title: Darshan Valia
 email: contactweb@dvalia.in
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+  I am a software/data engineer working primarily in the financial and advertising
+  data domains.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.dvalia.in" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: darshanvalia
 domain: dvalia.in
 
 # Build settings
-#theme: minima
-#remote-theme: jekyll-theme-chirpy
+theme: no-style-please
+#remote-theme: no-style-please
+
+theme_config:
+  back_home_text: "← home" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description in home page
+
 plugins:
   - jekyll-feed
 
